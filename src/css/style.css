@@ -490,7 +490,6 @@ div.process__panel{
 }
 
 div.container__up{
-    margin-top: 50px;
    display: flex;
    justify-content: center;
 }
@@ -841,7 +840,6 @@ button[type="submit"].btn__contacts:hover{
 div.footer{
     width: 100%;
     height: auto;
-    padding: 20px 0;
     background-color: #000;
 
 }
