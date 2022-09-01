@@ -1,0 +1,110 @@
+
+
+@media screen and (min-width: 1200px){
+    div.container__hat{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.right__social{
+        margin: 25px 0;
+        display: flex;
+    }
+}   
+@media screen and (max-width: 992px){
+    div.container__hat{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.container__content{
+        margin:0 10px;
+    }
+    div.social__media{
+        display: none;
+    }
+    div.social{
+        margin: 22px 0;
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    div.container__header{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto; 
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 768px){
+    div.container__hat{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.social__media{
+        display: none;
+    }
+    div.container__content{
+        margin: 0 10px;
+    }
+    div.header{
+        display: flex;
+        flex-direction: column;
+    }
+    div.container__header{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto; 
+        justify-content: center;
+    }
+    div.header__right{
+        display: flex;
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 554px){
+    div.container__hat{
+        display: flex;
+        justify-content: space-between;
+    }
+    div.container__content{
+        margin: 0 10px;
+    }
+    div.social__media{
+        display: none;
+    }
+    div.container__header{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto; 
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 320px){
+    div.container__hat{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.container__content{
+        
+        margin: 0 10px;
+    }
+    div.social__media{
+        display: none;
+    }
+    div.container__header{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto; 
+        justify-content: center;
+    }
+    input.line__input{
+        display: inline;
+        margin: 5%;
+        padding-left: 5px;
+        min-width: 90%;
+        min-height: 25px;
+        background-color: #fff;
+        border: none;
+        border-bottom: 2px solid #e7e7e7;
+    }
+}
