@@ -255,9 +255,11 @@ div.right__social i.fa{
     margin:  0 15px;
     color: #7e7e7e;
     font-family:  FontAwesome;
-    font-size: 70%;
+    font-size: 40px;
     text-rendering: auto;
 }
+
+
 
 i.fa:hover::before{
     color: #333333;
